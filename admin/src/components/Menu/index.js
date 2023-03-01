@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 const Menu = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-primary">
+      <nav className="navbar navbar-expand-lg bg-danger">
         <div className="container-fluid">
           <Link 
-            className="navbar-brand text-bg-primary"
+            className="navbar-brand text-bg-danger"
             to="/"
           >
             ADMIN
@@ -25,7 +25,7 @@ const Menu = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-bg-primary"
+                <a className="nav-link dropdown-toggle text-bg-danger"
                   href="#"
                   role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -45,7 +45,7 @@ const Menu = () => {
                 placeholder="Search"
               />
               <button 
-                className="btn btn-warning"
+                className="btn btn-dark"
                 type="submit"
               >
                 <i className="bi bi-search"/>
